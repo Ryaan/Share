@@ -1,0 +1,26 @@
+{
+    "db": "mongodb://localhost/angular",
+    "app": {
+        "name": "MEAN - A Modern Stack - Development"
+    },
+    "facebook": {
+        "clientID": "183980961790658",
+        "clientSecret": "efcedb91d2649ca0b92d1e0f0c6d62a7",
+        "callbackURL": "http://localhost:3000/api/auth/facebook/callback"
+    },
+    "twitter": {
+        "clientID": "CONSUMER_KEY",
+        "clientSecret": "CONSUMER_SECRET",
+        "callbackURL": "http://localhost:3000/auth/twitter/callback"
+    },
+    "github": {
+        "clientID": "APP_ID",
+        "clientSecret": "APP_SECRET",
+        "callbackURL": "http://localhost:3000/auth/github/callback"
+    },
+    "google": {
+        "clientID": "APP_ID",
+        "clientSecret": "APP_SECRET",
+        "callbackURL": "http://localhost:3000/auth/google/callback"
+    }
+}

@@ -1,0 +1,9 @@
+<br/><br/><br/><br/>
+<h1>Profile {{testvar}}</h1>
+<br />        
+<li ng-repeat="photo in fbPhotos">
+	{{ photo.id }}
+	<img ng-src="{{photo.photo}}" border="0" />
+</li>
+<div ng-hide="fbPhotos">Loading facebook photos</div>
+<a href="" ng-click="exit()">Log Out</button>

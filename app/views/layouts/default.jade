@@ -1,0 +1,51 @@
+!!! 5
+html(lang='en', xmlns='http://www.w3.org/1999/xhtml', xmlns:fb='https://www.facebook.com/2008/fbml', itemscope='itemscope', itemtype='http://schema.org/Product')
+  include ../includes/head
+  body(ng-app='app')
+    header(data-ng-include="'/views/header.html'")
+    #container.cf
+      span.logo
+          p JUMPSHARE
+        span.menu
+          p
+            a(ui-sref='home')
+              span(data-icon='')
+            a(ui-sref='other')
+              span(data-icon="")
+            span(data-icon='')
+            span(data-icon='')
+        span.profile_link
+          p Ryan Connolly
+        span.notifications
+          p
+        #nav
+          ul
+            li(data-icon='', data-number='6')
+              | My uploads
+            li(data-icon='', data-number='3')
+              | Shared
+            li(data-icon='', data-number='3')
+              | Schedule
+            br
+            br
+            br
+            br
+            br
+            br
+            br
+            li(data-icon='', data-number='8')
+              | Plus Accounts
+            li(data-icon='', data-number='2')
+              | Settings
+          br
+          br
+          br
+          br
+          br
+          br
+          .upload
+        ui-view(class='ngPartialSlideReveal', id='content')
+        #footer Footer
+      .left-block
+      .right-block
+    include ../includes/foot

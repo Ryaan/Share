@@ -1,0 +1,8 @@
+           <div id="block">
+              <label id="user" for="name">p</label>
+              <input type="text" name="name" id="name" placeholder="Email" ng-model="credentials.email" required/>
+              <label id="pass" for="password">k</label>
+              <input type="password" name="password" id="password" placeholder="Password" ng-model="credentials.password" required />
+              <input type="submit" id="submit" name="submit" value="login" ng-click="login()" />
+              <div id="flash" ng-show="showFlash" ng-animate="{enter: 'example-enter', leave: 'example-leave'}" >{{ flash }}</div>
+            </div>

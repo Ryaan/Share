@@ -1,0 +1,9 @@
+<h2>Thread</h2>
+<ul ng-repeat="message in messages">
+	<li>{{ message.message }}</li>
+</ul>
+<form name="messageBox">
+<input type="text" name="message" ng-model="message" />
+<input type="submit" name="submit" ng-click="send()"/>
+
+</form>
