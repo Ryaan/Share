@@ -78,6 +78,7 @@ ul, li{
     height:65px;
     color: #ffffff;
     font-size: 14pt;
+    background-color: #41afce;
 }
 
 .menu {
@@ -85,6 +86,10 @@ ul, li{
     width:62%;
     height:65px;
     text-align: center;
+}
+
+.menu a {
+    color:#def7fe;
 }
 
 .menu span {
@@ -113,6 +118,7 @@ ul, li{
     text-align: center;
     text-decoration: none;
     line-height: 0px;
+    color:#def7fe;
 }
 
 .profile_link {
@@ -163,7 +169,7 @@ ul, li{
 }
 
 .profile_link:hover, .notifications:hover {
-    background-color: #abc4ed;
+    background-color: #41afce;
 }
 
 #nav {
