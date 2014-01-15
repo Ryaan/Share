@@ -1,12 +1,12 @@
 {
-    "db": "mongodb://localhost/mean",
+    "db": "mongodb://ryan:Password@linus.mongohq.com:10030/playground",
     "app": {
         "name": "MEAN - A Modern Stack - Production"
     },
     "facebook": {
-        "clientID": "APP_ID",
-        "clientSecret": "APP_SECRET",
-        "callbackURL": "http://localhost:3000/auth/facebook/callback"
+        "clientID": "183980961790658",
+        "clientSecret": "efcedb91d2649ca0b92d1e0f0c6d62a7",
+        "callbackURL": "http://localhost:3000/api/auth/facebook/callback"
     },
     "twitter": {
         "clientID": "CONSUMER_KEY",
