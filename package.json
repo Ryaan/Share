@@ -39,8 +39,9 @@
     "grunt-cli": "latest",
     "easyimage": "~0.1.3",
     "passport.socketio": "latest",
-    "q":"latest",
-    "request":"latest"
+    "q": "latest",
+    "request": "latest",
+    "socket.io": "~0.9.16"
   },
   "devDependencies": {
     "supertest": "latest",
