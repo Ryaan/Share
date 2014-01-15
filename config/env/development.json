@@ -1,5 +1,5 @@
 {
-    "db": "mongodb://ryan:Password@linus.mongohq.com:10030/playground",
+    "db": "mongodb://Ryan:Password@linus.mongohq.com:10030/playground",
     "app": {
         "name": "MEAN - A Modern Stack - Development"
     },
