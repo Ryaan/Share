@@ -176,7 +176,7 @@ ul, li{
     float:left;
     width: 18%;
     background-color: #fafafa;
-    min-width: 200px;
+    min-width: 100px;
     padding-bottom: 500em;
     margin-bottom: -500em;
 }
